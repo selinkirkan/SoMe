@@ -4,7 +4,7 @@
 
 body{
     margin: 0, auto;
-    background-color: red;
+    background-color: #D6A895;
 }
 
 /*Overskrift*/
@@ -31,7 +31,7 @@ nav {
     opacity: 0.56;
     font-size: 17px;
     font-weight: bold;
-    background-color: #D6A895;
+    background-color: var(--bgc);
 }
 
 .nav-ul {
@@ -145,7 +145,12 @@ header {
     margin: 20px;
     text-align: center;
     box-shadow: 3px 3px 5px rgb(63, 62, 62);
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
+}
+
+/*Hjerte ikonet*/
+.heart{
+    padding-top: 2rem;
 }
 
 /*Knapperne "Tilføj til kurv"*/

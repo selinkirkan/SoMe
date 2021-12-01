@@ -137,13 +137,16 @@
         
         .column1 {
             float: center;
-            width: 50%;
+            width: 100%;
             padding-top: 0.625rem;
             padding-bottom: 0.625rem;
+            background-color: var(--boxcolor);
+            color: var(--bgc);
+
         }
         
         .column1 a {
-            color: var(--fontcolor);
+            color: var(--bgc);
             letter-spacing: 15px;
         }
         /* .grid-container{
