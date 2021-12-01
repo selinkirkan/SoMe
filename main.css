@@ -110,9 +110,17 @@
             margin: 0.625rem;
             margin-left: 3rem;
             margin-right: 3rem;
+            margin-top: 1.5rem;
             padding: 0.625rem;
             display: grid;
             justify-content: center;
+            border-radius: 10px;
+            -webkit-box-shadow: 1px 1px 10px 2px #000000;
+            box-shadow: 1px 1px 10px 2px #000000;
+        }
+        
+        .vase-udvalg3 {
+            margin-bottom: 1.5rem;
         }
         
         .vuheader {
@@ -137,13 +145,15 @@
         
         .column1 {
             float: center;
-            width: 50%;
+            width: 100%;
             padding-top: 0.625rem;
             padding-bottom: 0.625rem;
+            background-color: var(--boxcolor);
+            color: var(--bgc);
         }
         
         .column1 a {
-            color: var(--fontcolor);
+            color: var(--bgc);
             letter-spacing: 15px;
         }
         /* .grid-container{
@@ -175,7 +185,7 @@
         
         .intro {
             text-align: center;
-            background-color: #A0705C;
+            background-color: var(--boxcolor);
             width: 90%;
             padding-top: 1rem;
             padding-bottom: 0.5rem;
@@ -284,6 +294,17 @@
         
         @media screen and (min-width: 1080px) {
             /*Vaser siden*/
+            .vu {
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                margin-left: 10rem;
+                margin-right: 10rem;
+            }
+            .vuheader {
+                font-size: 50px;
+                padding: 3rem;
+            }
+            .vasebilleder {}
             /**/
             /**/
             /**/
