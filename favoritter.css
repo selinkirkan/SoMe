@@ -1,3 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    margin: 0 auto;
+    margin: 0, auto;
+    background-color: #D6A895;
+}
+
+/*Overskrift*/
+h3{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*Under-overskrifter på items*/
+h2{
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+}
+
+/*Første flexbox*/
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/*Anden flexbox*/
+.browsing{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.infoboks{
+    background-color: #96705f;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1em;
+    box-shadow: 3px 3px 5px rgb(118, 118, 118);
+}
+
+/*Knappen "her!"*/
+.btn{
+    background-color: #815D4E;
+    border-style: 1px solid black;
+    margin-left: 10px;
+    margin-top: -50px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hiako{
+    background-color: #96705f;
+    flex: 30%;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgb(63, 62, 62);
+    padding-bottom: 4rem;
+}
+
+/*Hjerte ikonet*/
+.heart{
+    padding-top: 2rem;
+}
+
+/*Knapperne "Tilføj til kurv"*/
+.tilfoj{
+    margin-top: 3rem;
+}
+
+.tilfoj a{
+    background-color: #96705f;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border: 1px solid black;
+    padding:15px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.koza{
+    background-color: #96705f;
+    flex: 30%;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgb(118, 118, 118);
+    padding-bottom: 4rem;
+}
+
+.browsing a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    padding:5px;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+
+.lamper{
+    background-color: #96705f;
+    box-shadow: 3px 3px 5px rgb(118, 118, 118);
+    margin: 20px;
+    padding: 2em;
+    flex: 30%;
+}
+
+.vaser{
+    background-color: #96705f;
+    box-shadow: 3px 3px 5px rgb(118, 118, 118);
+    margin: 20px;
+    padding: 2em;
+    flex: 30%;
+}
+
+@media screen and (min-width: 461px){
+    .container{
+        display: flexbox;
+        flex-direction: row;
+    }
+
+    .browsing{
+        display: flexbox;
+        flex-direction: row;
+    }
+    
+    .browsing a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        border: 1px solid black;
+        padding:5px;
+        margin: 1em;
+        border-radius: 5px 5px 5px 5px;
+        font-weight: bold;
+    }
 }
