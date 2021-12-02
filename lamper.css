@@ -7,19 +7,19 @@ body {
     background-color: #d6a895;
 }
 
-.infobox {
-    background-color: #815d4e;
+.infobox{
+    background-color: #a0705c;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 3rem;
     padding: 1em;
     -webkit-box-shadow: 1px 1px 10px 2px #000;
-    box-shadow: 1px 1px 10px 2px;
     border-radius: 10px;
 }
 
 p {
     font-size: 3vh;
+    margin: 1rem;
 }
 
 h1 {
@@ -113,6 +113,7 @@ nav a:focus {
 
 .leather {
     margin-top: -5rem;
+    display: none;
 }
 
 header {
@@ -123,54 +124,74 @@ header {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    margin: 10vh;
 }
 
-.hiaku {
-    background-color: #815d4e;
+.container img{
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.flex{
+    background-color: #a0705c;
     -webkit-box-shadow: 1px 1px 10px 2px #000;
     text-align: center;
     flex: 30%;
     padding-top: 2rem;
     padding-bottom: 8rem;
     margin: 20px;
+    margin-left: -2rem;
+    margin-right: -2rem;
     border-radius: 10px;
 }
 
-.hiaku p {
+.lex p{
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
-.hiaku button {
+.flex button{
     padding: 10px 30px 10px 30px;
     font-size: 20px;
     border-radius: 10px;
     border: solid 0px;
-    background-color: #DEDDDB;
+    background-color:#d6a895;
 }
 
-.Cuelga {
-    background-color: #815d4e;
-    -webkit-box-shadow: 1px 1px 10px 2px #000;
-    text-align: center;
-    flex: 30%;
-    padding-top: 2rem;
-    padding-bottom: 8rem;
-    margin: 20px;
-    border-radius: 10px;
+.column1 {
+    float: center;
+    width: 100%;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    background-color: var(--boxcolor);
+    color: var(--bgc);
+
 }
 
-.Cuelga p {
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 10px;
+.column1 a {
+    color: var(--bgc);
+    letter-spacing: 15px;
 }
 
-.Cuelga button {
-    padding: 10px 30px 10px 30px;
-    font-size: 20px;
-    border-radius: 10px;
-    border: solid 0px;
-    background-color: #DEDDDB;
+@media screen and (min-width: 461px){
+    .container{
+        display: flexbox;
+        flex-direction: row;
+
+    }
+    .leather{
+        display:block;
+        width: 100%;
+        height: 12rem;
+
+    }
+    nav{
+        font-size: 32px;
+    } 
+    .flex{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 }
