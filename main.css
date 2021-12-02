@@ -68,6 +68,13 @@
         color: green;
     }
     
+    .fa-heart {
+        padding-top: 2rem;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+    
     .releather-left {
         display: none;
     }
@@ -157,10 +164,10 @@
     }
     
     .vasebilleder {
-        margin-bottom: 1.25rem;
+        margin-bottom: 0.625rem;
         border-radius: 10px;
         width: 80%;
-        height: 70%;
+        height: 50%;
     }
     
     .buybtn {
@@ -321,6 +328,9 @@
         }
         .leather {
             display: none;
+        }
+        .ttf {
+            font-size: 13px;
         }
         .home {
             display: flex;
