@@ -123,6 +123,10 @@
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-family: var(--font);
+        color: var(--fontcolor);
     }
     /*vaser*/
     
@@ -131,6 +135,7 @@
         text-align: center;
         font-size: 50px;
         font-family: var(--font);
+        text-transform: uppercase;
     }
     
     .vucontainer {

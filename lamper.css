@@ -1,13 +1,13 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0, auto;
 }
 
-body{
+body {
     background-color: #d6a895;
 }
 
-.infobox{
+.infobox {
     background-color: #815d4e;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -16,14 +16,23 @@ body{
     -webkit-box-shadow: 1px 1px 10px 2px #000;
     box-shadow: 1px 1px 10px 2px;
     border-radius: 10px;
-
 }
-p{
+
+p {
     font-size: 3vh;
 }
-h1{
+
+h1 {
+    color: var(--fontcolor);
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: var(--font);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: var(--font);
+    text-transform: uppercase;
 }
 
 nav {
@@ -110,13 +119,13 @@ header {
     z-index: -1;
 }
 
-
-.container{
+.container {
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
-.hiaku{
+
+.hiaku {
     background-color: #815d4e;
     -webkit-box-shadow: 1px 1px 10px 2px #000;
     text-align: center;
@@ -125,23 +134,23 @@ header {
     padding-bottom: 8rem;
     margin: 20px;
     border-radius: 10px;
-
 }
 
-.hiaku p{
+.hiaku p {
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
-.hiaku button{
+.hiaku button {
     padding: 10px 30px 10px 30px;
     font-size: 20px;
     border-radius: 10px;
     border: solid 0px;
     background-color: #DEDDDB;
 }
-.Cuelga{
+
+.Cuelga {
     background-color: #815d4e;
     -webkit-box-shadow: 1px 1px 10px 2px #000;
     text-align: center;
@@ -151,13 +160,14 @@ header {
     margin: 20px;
     border-radius: 10px;
 }
-.Cuelga p{
+
+.Cuelga p {
     font-weight: bold;
-    font-size: 25px; 
-    margin-bottom: 10px; 
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
-.Cuelga button{
+.Cuelga button {
     padding: 10px 30px 10px 30px;
     font-size: 20px;
     border-radius: 10px;
