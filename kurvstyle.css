@@ -85,6 +85,16 @@ nav {
     padding-top: 20px;
 }
 
+.kozavase{
+    width: 200px;
+    height: 200px;
+}
+
+.hiakolampe{
+    width: 200px;
+    height: 200px;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: 408px;
@@ -410,7 +420,7 @@ nav a:focus {
     grid-template-columns: 500px 380px;
     padding: 10px;
     justify-content: center;
-    grid-template-rows: 100px 50px 50px 50px 50px 80px 5px 5px;
+    grid-template-rows: 100px 50px 50px 30px 50px 80px 5px 5px;
     grid-column-gap: 20px;
 }
 
@@ -436,6 +446,16 @@ nav a:focus {
 .grid-rabatkode{
     grid-column: 2;
     grid-row: 7 / span 7;
+}
+
+.kozavase{
+    width: 200px;
+    height: 190px;
+}
+
+.hiakolampe{
+    width: 200px;
+    height: 205px;
 }
 
 .listevenstre{
@@ -477,12 +497,12 @@ nav a:focus {
 .grid-rabatkode p{
     font-size: 10px;
     padding: 15px 20px 15px 20px;
-    margin-top: -5px;
+    margin-top: 5px;
     background-color: #BAAEA8;
 }
 
 .grid-rabatkode button{
-    margin: 8px 0px 0px 0px;
+    margin: 8px 0px 8px 0px;
     border: solid 0px;
     font-size: 12px;
     padding: 10px 30px 10px 30px;
