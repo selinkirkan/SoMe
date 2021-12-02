@@ -302,6 +302,10 @@ nav {
     text-decoration: none;
 }
 
+.nav-ul li{
+    margin: 0px 40px 0px 40px;
+}
+
 nav a:hover,
 nav a:focus {
     color: var(--hovercolor);
@@ -544,4 +548,6 @@ nav a:focus {
     height: 100%;
     opacity: 0.56;
     z-index: -1;
+}
+
 }
