@@ -458,6 +458,13 @@ nav a:focus {
     height: 205px;
 }
 
+.grid-vase i{
+    float: right;
+    margin: 33px 15px 0px 0px;
+    font-size: 20px;
+    color: black;
+}
+
 .listevenstre{
     display: inline-block;
     font-size: 15px;
