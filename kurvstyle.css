@@ -13,75 +13,8 @@
 }
 
 
-/*Mobil navi*/
+/*Mobil navi - virker ikke*/
 
-.nav-ul {
-    margin-top: 1rem;
-    margin-left: -1rem;
-    padding-left: 1rem;
-    display: none;
-    border-bottom: 1px solid;
-    width: 100%;
-    flex-direction: column;
-    background-color: #dfdddd;
-}
-
-.nav-ul .icons {
-    margin: -2rem 0 -1rem 0;
-}
-
-nav {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    opacity: 1;
-}
-
-.leather {
-    display: none;
-}
-
-.home {
-    display: flex;
-    display: show;
-    width: 50%;
-}
-
-.nav-ul a {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    font-size: 1.8em;
-}
-
-.nav-ul.show {
-    display: flex;
-}
-
-.nav-ul .releather-mid {
-    display: none;
-    overflow: hidden;
-}
-
-.releather-mid {
-    display: none;
-}
-
-.releather-left {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 0.5rem;
-    color: var(--fontcolor);
-    font-size: 2.2rem;
-    border-style: solid;
-    border-width: 2px;
-    text-decoration: none;
-}
-
-.hamburger {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 1rem;
-    color: var(--fontcolor);
-}
 
 
 /*main body mobil*/
@@ -334,199 +267,19 @@ nav {
     letter-spacing: 15px;
 }
 
-@media screen and (min-width:728px) {
-    /*Navi desktop*/
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        opacity: 0.56;
-        font-size: 32px;
-        font-weight: bold;
-        background-color: var(--bgc);
-    }
-    .nav-ul {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 0;
-        list-style-type: none;
-        width: 100%;
-    }
-    .nav-ul a {
-        display: inline-block;
-        padding-top: 0.10rem;
-        padding-bottom: 0.10rem;
-        color: var(--fontcolor);
-        width: 100%;
-        font-size: 0.8em;
-        text-decoration: none;
-    }
-    nav a:hover,
-    nav a:focus {
-        color: var(--hovercolor);
-    }
-    .logo {
-        float: left;
-    }
-    .fa-recycle {
-        color: green;
-    }
-    .releather-left {
-        display: none;
-    }
-    .releather-mid {
-        border-style: solid;
-        border-width: 2px
-    }
-    .home {
-        color: #fcfcfc;
-        cursor: pointer;
-        display: none;
-    }
-    .hamburger {
-        display: none;
-    }
-    .hamburger:focus {
-        outline: none;
-    }
-    .icons {
-        padding: 1.5rem;
-    }
-    .leather {
-        margin-top: -5rem;
-        display: block;
-        width: 100%;
-        height: 12rem;
-    }
-    header {
-        z-index: -1;
-    }
-    /*Main body desktop*/
-    .grid-container {
-        display: grid;
-        grid-template-columns: 500px 380px;
-        padding: 10px;
-        justify-content: center;
-        grid-template-rows: 100px 50px 50px 50px 50px 80px 5px 5px;
-        grid-column-gap: 20px;
-    }
-    .grid-tekst {
-        grid-column: 1/3;
-        grid-row-start: 1;
-    }
-    .grid-lampe {
-        grid-row: 2 / span 4;
-    }
-    .grid-vase {
-        grid-row: 6 /span 8;
-    }
-    .grid-betaling {
-        grid-column: 2;
-        grid-row: 2 / span 5;
-    }
-    .grid-rabatkode {
-        grid-column: 2;
-        grid-row: 7 / span 7;
-    }
-    .listevenstre {
-        display: inline-block;
-        font-size: 15px;
-        font-weight: bold;
-        color: #76726E;
-        text-align: left;
-    }
-    .listevenstre li {
-        margin: 10px 100px 0px 0px;
-        color: black;
-    }
-    .listehøjre {
-        display: inline-block;
-        color: black;
-        font-size: 15px;
-        font-weight: bold;
-        text-align: left;
-    }
-    .listehøjre li {
-        margin: 10px 15px 0px 0px;
-    }
-    .knapkassen {
-        margin-top: 75px;
-        padding: 10px 145px 10px 150px;
-    }
-    .grid-rabatkode h4 {
-        font-size: 20px;
-    }
-    .grid-rabatkode p {
-        font-size: 10px;
-        padding: 15px 20px 15px 20px;
-        margin-top: -5px;
-        background-color: #BAAEA8;
-    }
-    .grid-rabatkode button {
-        margin: 8px 0px 0px 0px;
-        border: solid 0px;
-        font-size: 12px;
-        padding: 10px 30px 10px 30px;
-    }
-    .grid-tekst i {
-        float: left;
-        margin-top: 40px;
-        margin-left: 50px;
-        font-size: 20px;
-    }
-    .grid-tekst p {
-        margin-top: 10px;
-        padding: 15px 120px 10px 120px;
-        text-align: left;
-        font-weight: bold;
-        font-size: 15px;
-        background-color: #815D4E;
-    }
-    .grid-tekst {
-        background: #815D4E;
-    }
-    .grid {
-        background-color: #815D4E;
-    }
-    .grid-vase li {
-        font-size: 15px;
-        font-weight: bold;
-        color: black;
-    }
-    .grid-lampe li {
-        color: black;
-    }
-    .vandretlinje {
-        border: solid 2px black;
-    }
-    .købknap {
-        font-size: 15px;
-        font-weight: bold;
-        padding: 7px 30px 7px 30px;
-        background-color: #BAAEA8;
-        border: solid 1px black;
-    }
-    /*footer desktop*/
-    .grid-container-b {
-        position: relative;
-        color: var(--fontcolor);
-        text-align: center;
-        opacity: 1;
-    }
-    .grid-container:after {
-        content: "";
-        display: flex;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0.56;
-        z-index: -1;
-    }
+@media screen and (min-width:728px){
+
+/*Navi desktop*/
+    
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    opacity: 0.56;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: var(--bgc);
 }
 
 .nav-ul {
@@ -596,12 +349,14 @@ nav a:focus {
 
 .leather {
     margin-top: -5rem;
+    display: block;
     width: 100%;
     height: 12rem;
-    display:block
-
 }
 
+header {
+    z-index: -1;
+}
 
 /*Main body desktop*/
 
@@ -773,6 +528,8 @@ nav a:focus {
 }
 
 }
+
+
 
 
 
